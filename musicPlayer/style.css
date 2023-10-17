@@ -1,0 +1,47 @@
+body {
+  background-color: #343a40;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.playListContainer {
+  margin-bottom: 10px;
+}
+.trackItem {
+  color: goldenrod;
+  border-bottom: 2px solid grey;
+  cursor: pointer;
+  user-select: none;
+  margin-bottom: 20px;
+}
+.currentAndTotalTime {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+.progressBar {
+  background-color: white;
+  width: 300px;
+  height: 2px;
+}
+.currentProgressBar {
+  width: 0px;
+  height: 100%;
+  background-color: red;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.controls {
+  color: white;
+  font-size: 20px;
+  margin: 30px;
+}
+.pause {
+  display: none;
+}
