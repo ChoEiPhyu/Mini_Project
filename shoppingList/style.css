@@ -1,0 +1,38 @@
+body {
+  background-color: #343a40;
+}
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.form-control {
+  width: 50%;
+}
+.productContainer {
+  margin-top: 30px;
+}
+.shoppingList {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.span {
+  display: block;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: white;
+  margin-bottom: 10px;
+  cursor: pointer;
+  user-select: none;
+}
+.decorate {
+  text-decoration: line-through;
+}
+.fa-trash {
+  font-size: 20px;
+  color: white;
+  margin-left: 10px;
+  cursor: pointer;
+}
