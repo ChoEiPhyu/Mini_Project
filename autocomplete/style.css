@@ -1,0 +1,35 @@
+body {
+  background-color: #343a40;
+}
+.container {
+  margin-top: 30px;
+  max-width: 500px;
+}
+.autoCompleteInput {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.resultContainer {
+  width: 100%;
+  background-color: white;
+}
+.productItemContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid gray;
+}
+
+.productImage {
+  height: 30px;
+  width: 30px;
+}
+.showProduct {
+  margin-top: 50px;
+}
+.showText {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
