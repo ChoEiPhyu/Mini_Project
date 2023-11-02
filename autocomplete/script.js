@@ -241,12 +241,13 @@ autoCompleteInputTag.addEventListener("keyup", (event) => {
 let indexToSelect = -1;
 const navigateAndSelectProduct = (key) => {
   if (key === "ArrowDown") {
+    indexToSelect += 1;
     if (indexToSelect === filteredProducts.length - 1) {
       indexToSelect = -1;
       delectProduct();
       return;
     }
-    indexToSelect += 1;
+
     const productContainerToSelect = selectedProduct(indexToSelect);
 
     if (indexToSelect > 0) {

@@ -1,0 +1,74 @@
+body {
+  background-color: #343a40;
+}
+.container {
+  max-width: 1000px;
+  margin-top: 50px;
+  margin-left: 80px;
+  position: relative;
+}
+.menuContainer {
+  position: absolute;
+  right: 0px;
+  cursor: pointer;
+  user-select: none;
+  z-index: 1;
+}
+.hamburger {
+  width: 50px;
+  height: 5px;
+  background-color: ghostwhite;
+  margin: 5px;
+}
+.lineOne,
+.lineTwo,
+.lineThree,
+.overlayMenu,
+li,
+.moveLiTagUp {
+  transition: all 0.5s ease;
+}
+.hideLineTwo {
+  opacity: 0;
+}
+.rotatePlus {
+  transform: rotate(45deg) translate(4px, 9px);
+}
+.rotateMinus {
+  transform: rotate(-45deg) translate(4px, -9px);
+}
+.overlayMenu {
+  width: 100vw;
+  height: 100vh;
+  background-color: #23401c;
+  position: absolute;
+  opacity: 0;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.showOverlay {
+  opacity: 1;
+}
+ul {
+  list-style: none;
+}
+li {
+  margin: 10px;
+  font-size: 30px;
+  color: goldenrod;
+  opacity: 0;
+}
+li:hover {
+  opacity: 0.5;
+}
+.showLiTag {
+  display: inline;
+}
+.moveLiTagUp {
+  opacity: 1;
+  transform: translateY(-5px);
+}
